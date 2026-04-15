@@ -1,0 +1,5 @@
+Bài 1: tạo canvas, thêm rect và text, rồi kéo-thả trực tiếp
+Đổi màu rect.
+Thêm 2 Rect nữa ở vị trí khác.
+Thêm 1 FabricText mới ghi tên bạn.
+Click chọn từng object rồi thử kéo, scale, rotate.

@@ -1,0 +1,5 @@
+Bài 4 - Mini Toolbar
+thêm nút Duplicate
+thêm nút Đổi stroke color
+thêm nút Bring Forward / Send Backward
+thêm panel hiển thị name, type, fill của object đang chọn

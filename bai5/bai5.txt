@@ -1,0 +1,5 @@
+Bài 5: toolbar, property panel, duplicate, layer order, và save/load JSON.
+Thêm Undo / Redo bằng cách lưu history JSON.
+Thêm Export PNG bằng canvas.toDataURL().
+Thêm lock/unlock object.
+Thêm danh sách layer ở sidebar để click chọn từng object.

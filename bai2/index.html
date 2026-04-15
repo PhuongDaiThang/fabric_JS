@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fabric Lesson 2</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      padding: 24px;
+      background: #f8fafc;
+      color: #0f172a;
+    }
+
+    h1 {
+      margin: 0 0 20px;
+      font-size: 32px;
+    }
+
+    .row {
+      display: flex;
+      gap: 24px;
+      flex-wrap: wrap;
+      align-items: flex-start;
+    }
+
+    .panel {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 18px;
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      border-radius: 18px;
+      box-shadow: 0 18px 40px rgba(15, 23, 42, 0.08);
+    }
+
+    canvas {
+      border: 1px solid #cbd5e1;
+      background: #ffffff;
+      border-radius: 12px;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: 18px;
+    }
+
+    p {
+      margin: 0;
+      color: #475569;
+      line-height: 1.5;
+    }
+
+    .note {
+      max-width: 1144px;
+      margin-top: 24px;
+      padding: 18px 20px;
+      background: #fff7ed;
+      border: 1px solid #fdba74;
+      border-radius: 18px;
+    }
+
+    .note h2 {
+      margin-bottom: 8px;
+    }
+
+    .note p + p {
+      margin-top: 8px;
+    }
+
+    .note strong {
+      color: #9a3412;
+    }
+  </style>
+</head>
+<body>
+  <h1>Bài 2 - Fabric.js</h1>
+
+  <div class="row">
+    <div class="panel">
+      <h2>Canvas (interactive)</h2>
+      <p>Chọn, kéo, scale và rotate object trực tiếp trên canvas.</p>
+      <canvas id="interactiveCanvas" width="560" height="360"></canvas>
+    </div>
+
+    <div class="panel">
+      <h2>StaticCanvas (non-interactive)</h2>
+      <p>Chỉ render nội dung, không thao tác trực tiếp bằng chuột.</p>
+      <canvas id="staticCanvas" width="560" height="360"></canvas>
+    </div>
+  </div>
+
+  <section class="note">
+    <h2>So sánh cảm giác dùng</h2>
+    <p><strong>Canvas:</strong> có cảm giác đang làm việc với một mặt phẳng sống, vì object có thể được chọn và chỉnh ngay bằng chuột.</p>
+    <p><strong>StaticCanvas:</strong> giống một khung render cố định hơn, phù hợp khi chỉ cần hiển thị kết quả hoặc preview tĩnh.</p>
+  </section>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+Bài 6: Zoom / Pan / Grid / Snap.
+thêm nút Zoom In / Zoom Out
+thêm Snap angle kiểu xoay 15 độ một nấc
+thêm giới hạn pan để không trôi quá xa khỏi vùng grid
+thêm Ctrl + wheel mới zoom, còn wheel thường thì cuộn trang

@@ -1,0 +1,8 @@
+Bài 3 — Events, Selection, Modified, Save/Load JSON
+Thêm canvas.on('selection:updated', ...) để hiện tên object được chọn ra giao diện.
+Khi object:modified, tự động save JSON vào localStorage.
+Thêm nút Add Rect để tạo object mới rồi save/load lại xem JSON có phản ánh đúng không.
+Gắn event trực tiếp lên object, ví dụ:
+rect.on('selected', () => {
+  console.log('Rect đã được chọn');
+});

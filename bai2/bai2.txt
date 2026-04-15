@@ -1,0 +1,14 @@
+Bài 2 - Circle, Image, Group, Canvas vs StaticCanvas
+
+Đã làm:
+- Đổi Circle sang màu xanh ngọc ở canvas interactive.
+- Thêm 1 Group mới gồm 1 Rect + 2 dòng text.
+- Đổi ảnh demo sang một SVG phong cảnh khác.
+- Thêm event:
+interactive.on('selection:created', () => {
+  console.log('Da chon object');
+});
+
+So sánh cảm giác dùng:
+- Canvas: có cảm giác "đụng vào được" vì chọn, kéo, scale, rotate trực tiếp trên object.
+- StaticCanvas: nhẹ và tĩnh hơn, hợp để render kết quả cuối hoặc preview không cần tương tác.

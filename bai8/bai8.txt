@@ -1,0 +1,5 @@
+Bài 8 — capstone editor hoàn chỉnh
+snap to grid + snap angle
+crop/clip tools cho image
+custom shortcut panel
+autosave định kỳ vào localStorage

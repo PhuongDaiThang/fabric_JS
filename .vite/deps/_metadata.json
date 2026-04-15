@@ -1,0 +1,15 @@
+{
+  "hash": "1758fa47",
+  "configHash": "3dd43b21",
+  "lockfileHash": "e3b0c442",
+  "browserHash": "fb63caf3",
+  "optimized": {
+    "fabric": {
+      "src": "../../bai1/node_modules/fabric/dist/index.min.mjs",
+      "file": "fabric.js",
+      "fileHash": "20c2aa94",
+      "needsInterop": false
+    }
+  },
+  "chunks": {}
+}

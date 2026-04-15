@@ -1,0 +1,5 @@
+Bài 7: brush / free drawing / image / clipPath
+Thêm PatternBrush như brush thứ 3. Fabric có brush này sẵn và nó kế thừa từ PencilBrush.
+Khi path:created, tự đổi màu path vừa vẽ sang màu khác.
+Thêm clipPath hình chữ nhật bo góc thay vì chỉ có circle.
+Thêm nút clear all brush paths nhưng giữ nguyên image và shape.
